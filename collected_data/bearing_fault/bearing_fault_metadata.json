@@ -1,0 +1,30 @@
+{
+    "dataset_info": {
+      "total_samples": 300,
+      "fault_type": "Bearing_Fault",
+      "sample_rate_hz": 1000,
+      "duration_seconds": 10,
+      "axes": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "units": "milligravity (mg)"
+    },
+    "motor_info": {
+      "type": "induction",
+      "power_rating": "1.5kW",
+      "rpm": 1750,
+      "manufacturer": "Generic"
+    },
+    "measurement_conditions": {
+      "temperature_c": 25.5,
+      "load_percent": 75,
+      "sensor_position": "motor_housing_horizontal"
+    },
+    "fault_details": {
+      "description": "Simulated bearing_fault condition",
+      "severity_level": 2
+    },
+    "generation_timestamp": "2025-08-19T19:52:35.352475"
+  }

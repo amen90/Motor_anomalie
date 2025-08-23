@@ -1,0 +1,15 @@
+{
+    "dataset_summary": {
+      "total_fault_types": 4,
+      "samples_per_type": 300,
+      "total_samples": 1200,
+      "fault_types": [
+        "Normal",
+        "Imbalance",
+        "Bearing_Fault",
+        "Misalignment"
+      ],
+      "data_format": "CSV with JSON metadata",
+      "generation_date": "2025-08-19T19:52:35.356554"
+    }
+  }

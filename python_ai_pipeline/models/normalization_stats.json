@@ -1,0 +1,37 @@
+{
+  "mean": [
+    -1.0858362913131714,
+    -0.2939590513706207,
+    1002.42236328125
+  ],
+  "std": [
+    126.47188568115234,
+    109.08601379394531,
+    151.05593872070312
+  ],
+  "info": {
+    "per_class_counts": {
+      "2": 17,
+      "1": 17,
+      "3": 17,
+      "0": 17
+    },
+    "class_map": {
+      "normal": 0,
+      "imbalance": 1,
+      "bearing_fault": 2,
+      "bearing-fault": 2,
+      "bearing fault": 2,
+      "misalignment": 3
+    },
+    "id_to_class": {
+      "0": "normal",
+      "1": "imbalance",
+      "2": "bearing fault",
+      "3": "misalignment"
+    },
+    "inferred_sample_rate": 29.90000000000002,
+    "window_seconds": 2.0,
+    "step_seconds": 0.5
+  }
+}

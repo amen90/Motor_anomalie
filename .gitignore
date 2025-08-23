@@ -1,0 +1,32 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.settings/
+*.launch
+*.workspace
+*.user
+
+# STM32CubeIDE build files
+Debug/
+Release/
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.dep
+*.d
